@@ -1,0 +1,6 @@
+{
+  "id": "overnight", "title": "Midnight handover", "zone": "America/Havana",
+  "historyDay": "2026-10-31", "pendingDays": ["2026-11-01"],
+  "localLabel": "Night shift handover", "localTime": "00:30", "overlap": "later",
+  "fixedLabel": "Archive handoff", "fixedUtcTime": "05:30"
+}

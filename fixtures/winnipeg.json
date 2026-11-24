@@ -1,0 +1,7 @@
+{
+  "id": "winnipeg", "title": "Manitoba day shift", "zone": "America/Winnipeg",
+  "previousVersion": "2026d", "candidateVersion": "2026e",
+  "historyDay": "2026-10-30", "pendingDays": ["2026-11-02"],
+  "localLabel": "Day shift", "localTime": "09:00", "overlap": "later",
+  "fixedLabel": "Archive", "fixedUtcTime": "15:00"
+}
