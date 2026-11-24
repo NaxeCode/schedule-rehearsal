@@ -1,0 +1,6 @@
+{
+  "id": "morning", "title": "Havana morning dispatch", "zone": "America/Havana",
+  "historyDay": "2026-10-30", "pendingDays": ["2026-11-02", "2026-11-03"],
+  "localLabel": "Dispatch briefing", "localTime": "09:00", "overlap": "later",
+  "fixedLabel": "Settlement export", "fixedUtcTime": "14:00"
+}
