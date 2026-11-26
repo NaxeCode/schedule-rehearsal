@@ -1,6 +1,6 @@
 # Schedule Rehearsal
 
-On November 2, 2026, a 9 a.m. dispatch briefing in Havana was due at **13:00 UTC**. Until Cuba canceled its fallback, the scheduler expected **14:00 UTC**. A settlement export promised for 14:00 UTC still belonged there. This C# lab lets a platform operator inspect those promises, approve a migration and interrupt the worker halfway through. [Walk through the recorded run](https://naxe-portfolio-review.vercel.app/labs/schedule-rehearsal/) · [Open its receipt](web/receipts/morning.json)
+On November 2, 2026, a 9 a.m. dispatch briefing in Havana was due at **13:00 UTC**. Until Cuba canceled its fallback, the scheduler expected **14:00 UTC**. A settlement export promised for 14:00 UTC still belonged there. This C# lab lets a platform operator inspect those promises, approve a migration and interrupt the worker halfway through. [Walk through the recorded run](https://naxe.dev/labs/schedule-rehearsal/?utm_source=github&utm_medium=readme&utm_campaign=portfolio&utm_content=schedule-rehearsal) · [Open its receipt](web/receipts/morning.json)
 
 **What the worker did.** Quartz.NET had already executed two October jobs and persisted four November triggers in SQLite. The migration replaced the first local trigger, then the harness killed the process. A second process found that change, replaced the remaining local trigger and let Quartz execute all four pending jobs. A third process replayed the same approval. It added zero callbacks.
 
